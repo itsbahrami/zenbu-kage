@@ -1,0 +1,72 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+
+version: '3'
+
+vars:
+  BASE_URL: https://github.com/gikdev
+  DIR_DAI: ./Dai
+  DIR_HANE: ./Hane
+  DIR_KAO: ./Kao
+  DIR_SORA: ./Sora
+  DIR_KAGE: .
+
+tasks:
+  default: task --list-all
+
+  clone:all:
+    desc: Clone all repos
+    cmds:
+      - task: clone:dai
+      - task: clone:hane
+      - task: clone:kao
+      - task: clone:sora
+
+  clone:dai: git clone {{.BASE_URL}}/zenbu-dai.git {{.DIR_DAI}}
+  clone:hane: git clone {{.BASE_URL}}/zenbu-hane.git {{.DIR_HANE}}
+  clone:kao: git clone {{.BASE_URL}}/zenbu-kao.git {{.DIR_KAO}}
+  clone:sora: git clone {{.BASE_URL}}/zenbu-sora.git {{.DIR_SORA}}
+
+  pull:all:
+    desc: Pull all repos
+    cmds:
+      - task: pull:dai
+      - task: pull:hane
+      - task: pull:kao
+      - task: pull:sora
+      - task: pull:kage
+
+  pull:dai: cd {{.DIR_DAI}} && git pull
+  pull:hane: cd {{.DIR_HANE}} && git pull
+  pull:kao: cd {{.DIR_KAO}} && git pull
+  pull:sora: cd {{.DIR_SORA}} && git pull
+  pull:kage: cd {{.DIR_KAGE}} && git pull
+
+  push:all:
+    desc: Push all repos
+    cmds:
+      - task: push:dai
+      - task: push:hane
+      - task: push:kao
+      - task: push:sora
+      - task: push:kage
+
+  push:dai: cd {{.DIR_DAI}} && git push
+  push:hane: cd {{.DIR_HANE}} && git push
+  push:kao: cd {{.DIR_KAO}} && git push
+  push:sora: cd {{.DIR_SORA}} && git push
+  push:kage: cd {{.DIR_KAGE}} && git push
+
+  push-tags:all:
+    desc: Push all repos' tags
+    cmds:
+      - task: push-tags:dai
+      - task: push-tags:hane
+      - task: push-tags:kao
+      - task: push-tags:sora
+      - task: push-tags:kage
+
+  push-tags:dai: cd {{.DIR_DAI}} && git push --tags
+  push-tags:hane: cd {{.DIR_HANE}} && git push --tags
+  push-tags:kao: cd {{.DIR_KAO}} && git push --tags
+  push-tags:sora: cd {{.DIR_SORA}} && git push --tags
+  push-tags:kage: cd {{.DIR_KAGE}} && git push --tags
