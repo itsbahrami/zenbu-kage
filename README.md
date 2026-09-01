@@ -7,7 +7,7 @@ Control center. Run scripts here to update Sora, Kao, Dai, and Hane.
 Clone this repo like this:
 
 ```sh
-git clone https://github.com/gikdev/zenbu-kage.git ./Zenbu
+git clone https://github.com/itsbahrami/zenbu-kage.git ./Zenbu
 ```
 
 And then clone the other repos:
