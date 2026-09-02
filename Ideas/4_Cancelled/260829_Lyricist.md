@@ -1,5 +1,10 @@
 # Lyricist
 
+> **Found Tools**
+> - [EasyLRC](https://lrc.isea.dev/)
+> - [Poweramp](https://powerampapp.com/) (Android)
+> - [Harmonoid](https://harmonoid.com/) (Windows)
+
 ## 1. Core Concept (The "Matrix")
 
 - **Configurable columns**, not hardcoded languages.
