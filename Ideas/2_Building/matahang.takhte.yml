@@ -1,0 +1,23 @@
+version: 1
+projectTitle: ""
+tasks:
+  - id: ECCH
+    title: Design the DDD model
+    description: ""
+    status: Todo
+  - id: TWQ1
+    title: Make the Commands & Queries
+    description: ""
+    status: Backlog
+  - id: FF68
+    title: Make the API endpoints
+    description: ""
+    status: Backlog
+  - id: C1Z6
+    title: Design a logo/icon
+    description: ""
+    status: Backlog
+  - id: VVUS
+    title: Make the page in the frontend (empty)
+    description: ""
+    status: Backlog
