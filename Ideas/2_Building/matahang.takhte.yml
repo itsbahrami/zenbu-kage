@@ -4,7 +4,7 @@ tasks:
   - id: ECCH
     title: Design the DDD model
     description: ""
-    status: Todo
+    status: Done
   - id: TWQ1
     title: Make the Commands & Queries
     description: ""
@@ -16,8 +16,12 @@ tasks:
   - id: C1Z6
     title: Design a logo/icon
     description: ""
-    status: Backlog
+    status: Todo
   - id: VVUS
     title: Make the page in the frontend (empty)
     description: ""
     status: Backlog
+  - id: UWFU
+    title: Config infra
+    description: ""
+    status: Done
