@@ -1,5 +1,5 @@
 version: 1
-projectTitle: ""
+projectTitle: متهنگ
 tasks:
   - id: ECCH
     title: Design the DDD model
@@ -20,7 +20,7 @@ tasks:
   - id: VVUS
     title: Make the page in the frontend (empty)
     description: ""
-    status: Backlog
+    status: Todo
   - id: UWFU
     title: Config infra
     description: ""
