@@ -8,7 +8,7 @@ tasks:
   - id: TWQ1
     title: Make the Commands & Queries
     description: ""
-    status: Backlog
+    status: Todo
   - id: FF68
     title: Make the API endpoints
     description: ""
@@ -16,7 +16,7 @@ tasks:
   - id: C1Z6
     title: Design a logo/icon
     description: ""
-    status: Todo
+    status: Done
   - id: VVUS
     title: Make the page in the frontend (empty)
     description: ""
