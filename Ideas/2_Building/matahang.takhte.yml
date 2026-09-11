@@ -20,7 +20,7 @@ tasks:
   - id: VVUS
     title: Make the page in the frontend (empty)
     description: ""
-    status: Todo
+    status: Done
   - id: UWFU
     title: Config infra
     description: ""
