@@ -32,4 +32,4 @@ tasks:
   - id: 2GMG
     title: Test the API endpoints manually
     description: ""
-    status: Todo
+    status: Done
