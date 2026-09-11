@@ -8,11 +8,11 @@ tasks:
   - id: TWQ1
     title: Make the Commands & Queries
     description: ""
-    status: Todo
+    status: Done
   - id: FF68
     title: Make the API endpoints
     description: ""
-    status: Backlog
+    status: Done
   - id: C1Z6
     title: Design a logo/icon
     description: ""
@@ -25,3 +25,11 @@ tasks:
     title: Config infra
     description: ""
     status: Done
+  - id: AHYU
+    title: Generate the migrations
+    description: ""
+    status: Done
+  - id: 2GMG
+    title: Test the API endpoints manually
+    description: ""
+    status: Todo
