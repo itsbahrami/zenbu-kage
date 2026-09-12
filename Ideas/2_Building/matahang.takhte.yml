@@ -36,4 +36,4 @@ tasks:
   - id: "6331"
     title: Set up the layout
     description: ""
-    status: Todo
+    status: Done
